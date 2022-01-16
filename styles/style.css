@@ -1,0 +1,190 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .procollectino{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pic{
+        height: 100px;
+        width: 200px;
+        border-radius: 20px;
+        margin-left: 80px;
+    }
+    
+     
+    }
+/* nav start hare  */
+.navsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(204, 37, 37);
+
+
+}
+.nav-left{
+    margin-left: 100px;
+    font-size: 20px;
+}
+    
+.nav-right li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    color: rgb(255, 67, 9);
+    text-decoration: none;
+}
+.nav-right li a{
+    text-decoration: none;
+    color: rgb(83, 48, 211);
+}
+.nav-right li a:hover{
+    color: rgb(199, 16, 153);
+
+}
+
+/* nav end hare  */
+/* section start "your journey"  */
+
+
+
+
+.container{
+    display: flex;
+
+    margin-top: 100px;
+
+}
+.left-item h1 {
+   font-size: 60px;
+   margin-left: 100px;
+
+}
+.left-item p{
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 200px;
+}
+.right-item{
+    display: flex;
+    width: 50%;
+
+}
+.firstbtn{
+    background-color: rgb(56, 54, 63);
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(17, 14, 14);
+}
+.firstbtn:hover{
+    background-color: rgb(0, 0, 0);
+}
+/* section end "your journey"  */
+/* Product start hare  */
+
+.popular{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(26, 24, 34);
+    margin-bottom: 100px;
+}
+.productall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+.star{
+    height: 30px;
+    width: 150px;
+}
+.product {
+    margin-left: 40px;
+    border-radius: 10px;
+    flex:30%;
+    
+
+}
+/* product end hare  */
+/* next section start hare  */
+
+.procollectino{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.pic{
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.collection h2{ 
+    font-size: 55px;
+    margin-left: 60px;
+}
+.collection p{
+    margin-left: 60px;
+    
+    text-align: justify;
+}
+
+.secbtn{
+    background-color: rgb(56, 54, 63);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(2, 241, 54);
+    margin-left: 60px;
+
+}
+
+.animation{
+    animation: myanimation 10s infinite;
+}
+@keyframes myanimation {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+/* next section end hare  */
+/* footer start hare  */
+
+.lastpart{
+    background-color: rgb(73, 69, 69);
+    margin-top: 100px;
+}
+.lastpart-one{
+    text-align: center;
+    color: rgb(184, 32, 32);
+}
+.iconpart{
+    font-size: 29px;
+    margin-right: 20px;
+    color: rgb(168, 157, 157);
+}
+/* footer end hare  */
